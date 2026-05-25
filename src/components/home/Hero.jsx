@@ -6,7 +6,7 @@ import { HERO_BG } from '../../data';
 
 export function Hero() {
   const [isVideoEnded, setIsVideoEnded] = useState(false);
-  const videoSrc = "/dist/assets/videos/Healthy_breakfast_commercial_video_202605251518 (online-video-cutter.com).mp4";
+  const videoSrc = "/assets/videos/breakfast_hero.mp4";
 
   const handleVideoEnd = () => {
     setIsVideoEnded(true);
